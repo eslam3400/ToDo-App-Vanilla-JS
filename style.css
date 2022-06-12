@@ -1,0 +1,34 @@
+#todos-header,
+#completedTodos-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#todos-header h2,
+#completedTodos-header h2 {
+  margin-left: 5%;
+}
+
+#todos-header button {
+  margin-right: 5%;
+}
+
+.todo {
+  height: 50px;
+  background-color: #f2f2f2;
+  padding: 0 7%;
+}
+
+.fa-list {
+  font-size: x-large;
+  margin-left: 20px;
+}
+
+.fa-list:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+#completed-todos {
+  visibility: hidden;
+}
